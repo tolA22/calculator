@@ -1,0 +1,153 @@
+*{
+
+}
+main{
+	width: 16%;
+	height: auto;
+	margin: 0 auto;
+	border:2px solid black;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10PX;
+	border-bottom-right-radius: 10PX;
+	background-color: dodgerblue;
+	padding: 0;
+}
+
+textarea{
+	width: 96%;
+	height: 15%;
+	display: inline-table;
+	margin: 0 auto;
+	font-size: 1.1em;
+
+}
+
+#topContent{
+	width: 96%;
+	
+background-color: dodgerblue	;
+	color: red;
+	display: block;
+	height: 24px;
+	margin:0 auto; 
+	margin-top: 0;
+	padding: 0;
+}
+#topContent textarea{
+	border: 0px;
+	border-radius: 10px;
+	border-bottom: 0;
+	text-align: center;
+	font-weight: bolder;
+	font-family:  "Copperplate Gothic Light";
+}
+
+#topContent div{
+	
+	width: 100%;
+	background-color: dodgerblue;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+#topContent h5,h6{
+	padding: 0;
+	margin: auto 0;
+	font-size: Gadugi;
+	font-weight: bolder;
+	color: black;
+	text-align: center;
+	float: left;
+}
+
+#hide{
+	display: none;
+}
+
+#time{
+	width: 40%;
+	float: right;
+	height: 20px;
+}
+#question{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 0 solid dodgerblue;
+	border-color: black;
+	color: green;
+	font-weight: bolder;
+	font-size: 1.3em;
+	background-color: white;
+	opacity: 1;
+}
+#ans{
+	border-top: 0 solid dodgerblue; 
+	border-color: black;
+	text-align: right;
+}
+.ansRetain{
+	color:green;
+	background-color: white;
+	font-weight: bolder;
+	border-radius: 5PX;
+}
+
+tr{
+	width: 40%;
+	margin: 0;
+	padding: 0;
+
+}
+th{
+	margin: 0;
+	padding:0; 
+	width: 10%;
+	height: 30px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color:gray;
+	color: white;
+}
+
+.font{
+	font-size: 2em;
+}
+
+.gray{
+	background-color: lightgray;
+	color: black
+	
+}
+.height{
+
+	font-family:  Gadugi;
+	font-size: 1.7em;
+}
+
+.orangered{
+	background-color: #ff8300;
+	border-radius: 7px;
+}
+.red{
+	background-color: red;
+	border-radius: 5px;
+}
+
+.blue{
+	background-color: dodgerblue;
+	border-radius: 5px;
+}
+
+.blue:hover{
+	background-color: #39ff14;
+	opacity: 1;
+} 
+
+.red:hover{
+	background-color: red;
+}
+
+th:hover{
+	opacity: 0.9;
+}
