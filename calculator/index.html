@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -87,4 +88,95 @@
 	</main>
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>My Calculator</title>
+</head>
+<body onload="setInterval(showTime,1000)">
+	<main>
+		<div id="topContent">
+			<div>
+				<h5>TOLIZU S.C</h5>
+			
+				<textarea id= "time" readonly=""></textarea>
+					<h5 style="float: right;">ABOUT</h5>
+			</div>
+			
+			
+			
+		</div>
+		<textarea readonly="true" id="question"></textarea>
+		<textarea id="ans"></textarea>
+		<table>
+			<tr >
+				<th class="gray" onclick="clicks(this)">(</th>
+				<th class="gray" onclick="clicks(this)">)</th>
+				
+					<th class="gray" onclick="clicks(this)">^</th>
+					<th class="gray" onclick="clicks(this)">←</th>
+			</tr>
+			<tr>
+				<th class="orangered" onclick="clicks(this)">sin</th>
+				<th class="orangered" onclick="clicks(this)">cos</th>
+			
+			
+				<th class="orangered" onclick="clicks(this)">tan</th>
+					<th class="red" onclick="clears()">AC</th>
+
+			</tr>
+			<tr>
+				<th class="orangered" onclick="clicks(this)">sin^(-1)</th>
+				<th class="orangered" onclick="clicks(this)">cos^(-1)</th>
+				<th class="orangered" onclick="clicks(this)">tan^(-1)</th>
+				
+					<th  onclick="clicks(this)">π</th>
+				
+			</tr>
+			<tr >
+				<th class="gray" onclick="clicks(this)">n!</th>
+				<th class="gray" onclick="clicks(this)">aPb</th>
+				<th class="gray" onclick="clicks(this)">aCb</th>
+				<th  onclick="clicks(this)">e</th>
+			</tr>
+			<tr >
+					<th class="ansRetain" onclick="clicks(this)">Ans</th>
+				<th class="gray" onclick="clicks(this)">1/x</th>
+				<th class="gray" onclick="clicks(this)">ln</th>
+				<th class="gray" onclick="clicks(this)">log</th>
+			
+			</tr>
+			<tr>
+				<th class="height" onclick="clicks(this)">7</th>
+				<th class="height" onclick="clicks(this)">8</th>
+				<th class="height" onclick="clicks(this)">9</th>
+				<th class="gray" onclick="clicks(this)">÷</th>
+			</tr>
+			<tr >
+				<th class="height" onclick="clicks(this)">4</th>
+				<th class="height" onclick="clicks(this)">5</th>
+				<th class="height" onclick="clicks(this)">6</th>
+				<th class="gray" onclick="clicks(this)">×</th>
+			</tr>
+			<tr >
+				<th class="height" onclick="clicks(this)">1</th>
+				<th class="height" onclick="clicks(this)">2</th>
+				<th class="height" onclick="clicks(this)">3</th>
+				<th class="gray" onclick="clicks(this)">-</th>
+			</tr>
+			<tr >
+				<th class="height" onclick="clicks(this)">0</th>
+				<th onclick="clicks(this)">.</th>
+				<th class="blue" onclick="clicks(this)">=</th>
+				<th class="gray" onclick="clicks(this)">+</th>
+			</tr>
+		</table>
+	</main>
+
+</body>
+>>>>>>> 514e3382c93de8f168f02a090a68f859cb90313b
 </html>
